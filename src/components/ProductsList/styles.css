@@ -1,0 +1,23 @@
+@media only screen and (max-width: 967px) {
+  .showcase {
+    height: 396px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (min-width: 968px) {
+  .showcase {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
